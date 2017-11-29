@@ -76,6 +76,7 @@ Web scraper is set to /r/politics, but can be (theoretically) used on any Subred
 <li>Download this repository & unzip it</li>
 <li>sentimentanalysis-master->RedditbotSpider->right click on main.py, edit with IDLE->Run->Run Module
 </ul>
+Note: Before running the program a <i>second</i> time, move or delete the generated/results files: test.db, temp-plot.html, results.csv out of the folder.
 
 <hr>
 
