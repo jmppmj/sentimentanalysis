@@ -1,8 +1,8 @@
-Comment Sentiment Analysis of the Top 25 Posts on a Subreddit (www.reddit.com) (top posts from the last 24 hrs)
+<b>Comment Sentiment Analysis of the Top 25 Posts on a Subreddit (www.reddit.com) (top posts from the last 24 hrs)</b>
 
 Web scraper is set to /r/politics, but can be (theoretically) used on any Subreddit by changing the address and (if needed) altering XPath's within RedditbotSpider.py.
 
-What the program does:
+<b>What the program does:</b>
 <ul>
 <li>Data is scraped.</li>
 <li>Inserted into a sqlite3 database.</li>
@@ -13,7 +13,7 @@ What the program does:
 
 <hr>
 
-Lexicon Used to Extract an Overall Sentiment Level:
+<b>Lexicon used to extract an overall sentiment level:</b>
 <table style="width:100%">
   <tr>
     <th>Positive +1</th>
@@ -63,7 +63,7 @@ Lexicon Used to Extract an Overall Sentiment Level:
 
 <hr>
 
-How to run the program:
+<b>How to run the program:</b>
 <ul>
 <li>Download this repository</li>
 <li>Download and install <a href="https://sqlite.org/download.html">SQLite</a></li>
@@ -78,7 +78,7 @@ How to run the program:
 
 <hr>
 
-Tools/Libraries/Packages used:
+<b>Tools/Libraries/Packages used:</b>
 <ul>
 <li><a href="https://www.python.org/downloads/">Python 3.6.3</a></li>
 <li><a href="https://scrapy.org/">Scrapy 1.4</a></li>
