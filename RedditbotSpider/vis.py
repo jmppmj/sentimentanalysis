@@ -4,7 +4,7 @@ import plotly
 import plotly.graph_objs
 from plotly.graph_objs import Bar, Scatter, Marker, Layout, Margin
 
-#Generates bar chart from SQLite data (sentiment analysis results and title)
+#generates bar chart from SQLite data (sentiment analysis results and title)
 
 def graphRes():
     conn = sqlite3.connect("test.db")
