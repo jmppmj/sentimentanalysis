@@ -65,7 +65,6 @@ Web scraper is set to /r/politics, but can be (theoretically) used on any Subred
 
 <b>How to run the program:</b>
 <ul>
-<li>Download this repository & unzip it</li>
 <li>Download and install <a href="https://sqlite.org/download.html">SQLite</a></li>
 <li>Download and install <a href="https://www.python.org/downloads/">Python 3.6.3</a></li>
 <li>Make sure your System PATH includes the path to Python's interpreter</li>
@@ -74,6 +73,7 @@ Web scraper is set to /r/politics, but can be (theoretically) used on any Subred
 <li>pip3 install scrapy</li>
 <li>pip3 install plotly</li>
 <li>pip install pypiwin32</li></ul>
+<li>Download this repository & unzip it</li>
 <li>sentimentanalysis-master->RedditbotSpider->right click on main.py, edit with IDLE->Run->Run Module
 </ul>
 
