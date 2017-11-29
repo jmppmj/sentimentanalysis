@@ -11,6 +11,8 @@ What the program does:
 <li>Data visualization, including an interactive bar chart, CSV file, and completion window are generating using Plotly and Tkinter.</li>
 </ul>
 
+<hr>
+
 Lexicon Used to Extract an Overall Sentiment Level:
 <table style="width:100%">
   <tr>
