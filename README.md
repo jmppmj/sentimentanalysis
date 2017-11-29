@@ -12,6 +12,8 @@ What the program does:
 <li>Data visualization, including an interactive bar chart, CSV file, and completion window are generating using Plotly and Tkinter.</li>
 </ul>
 
+<hr>
+
 How to run the program:
 <ul>
 <li>Install Python 3.6.3</li>
@@ -22,6 +24,8 @@ How to run the program:
 <li>pip3 install plotly</li>
 <li>pip install pypiwin32</li>
 </ul>
+
+<hr>
 
 Tools/Libraries/Packages used:
 <ul>
