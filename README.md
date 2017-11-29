@@ -65,10 +65,10 @@ Web scraper is set to /r/politics, but can be (theoretically) used on any Subred
 
 <b>How to run the program:</b>
 <ul>
-<li>Download this repository</li>
+<li>Download this repository & unzip it</li>
 <li>Download and install <a href="https://sqlite.org/download.html">SQLite</a></li>
 <li>Download and install <a href="https://www.python.org/downloads/">Python 3.6.3</a></li>
-<li>Make sure System PATH includes the path to the Python interpreter</li>
+<li>Make sure your System PATH includes the path to Python's interpreter</li>
 <li>In Windows Command Prompt do/install the following:</li><ul>
 <li>pip3 install pandas</li>
 <li>pip3 install scrapy</li>
