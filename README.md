@@ -1,4 +1,5 @@
 Comment Sentiment Analysis of the Top 25 Posts on a Subreddit (www.reddit.com) (top posts from the last 24 hrs)
+
 Scraper is set to /r/politics, but can be used on any Subreddit by changing the address in RedditbotSpider.py
 
 
