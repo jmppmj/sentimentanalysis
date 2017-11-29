@@ -69,11 +69,12 @@ Web scraper is set to /r/politics, but can be (theoretically) used on any Subred
 <li>Download and install <a href="https://sqlite.org/download.html">SQLite</a></li>
 <li>Download and install <a href="https://www.python.org/downloads/">Python 3.6.3</a></li>
 <li>Make sure System PATH includes the path to the Python interpreter</li>
-<li>In Windows Command Prompt do/install the following:</li>
+<li>In Windows Command Prompt do/install the following:</li><ul>
 <li>pip3 install pandas</li>
 <li>pip3 install scrapy</li>
 <li>pip3 install plotly</li>
-<li>pip install pypiwin32</li>
+<li>pip install pypiwin32</li></ul>
+<li>sentimentanalysis-master->RedditbotSpider->right click on main.py, edit with IDLE->Run->Run Module
 </ul>
 
 <hr>
