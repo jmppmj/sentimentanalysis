@@ -1,6 +1,6 @@
 <b>Comment Sentiment Analysis of the Top 25 Posts on a Subreddit (www.reddit.com) (top posts from the last 24 hrs)</b>
 
-Web scraper is set to /r/politics, but can be (theoretically) used on any Subreddit by changing the address and (if needed) altering XPath's within RedditbotSpider.py.
+Web scraper is set to /r/politics, but can be (theoretically) used on any Subreddit by changing the address and (if needed) altering the XPath's within RedditbotSpider.py.
 
 <b>What the program does:</b>
 <ul>
