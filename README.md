@@ -3,7 +3,7 @@
 <b>Purpose of the program:</b>
 To define, evaluate, and visualize overall public sentiment towards various news articles. 
 
-Web scraper is set to https://www.reddit.com/r/politics/top/, but can be (theoretically) used on any subreddit by changing the address and (if needed) altering the XPath's within RedditbotSpider.py.
+Web scraper is set to https://www.reddit.com/r/politics/top/, but can be (theoretically) used on any similar subreddit by changing the address and (if needed) altering the XPath's within RedditbotSpider.py.
 
 <b>What the program does:</b>
 <ul>
