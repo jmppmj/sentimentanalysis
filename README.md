@@ -8,7 +8,7 @@ Web scraper is set to https://www.reddit.com/r/politics/top/, but can be (theore
 <b>What the program does:</b>
 <ul>
 <li>Web scraper connects to subreddit and collects the top 25 post titles, as well as comments within each post.</li>
-<li>Data is inserted into a SQLite3 database.</li>
+<li>Data is inserted into a SQLite database.</li>
 <li>Data is cleaned up: any rows lacking a comment are deleted.</li>
 <li>Comments are combined for each corresponding title and placed into a new database table.
 <li>A unique ID (1-25) is added for each title and corresponding group of comments.
