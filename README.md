@@ -1,14 +1,19 @@
-<b>Comment Sentiment Analysis of the Top 25 Posts on a Subreddit (www.reddit.com) (top posts from the last 24 hrs)</b>
+<b><u>Comment Sentiment Analysis of the Top 25 Posts on a Subreddit (www.reddit.com) (top posts from the last 24 hrs)</b></u>
 
-Web scraper is set to /r/politics, but can be (theoretically) used on any Subreddit by changing the address and (if needed) altering the XPath's within RedditbotSpider.py.
+<b>Purpose of the program:</b>
+To define, evaluate, and visualize overall public sentiment towards various news articles. 
+
+Web scraper is set to https://www.reddit.com/r/politics/top/, but can be (theoretically) used on any subreddit by changing the address and (if needed) altering the XPath's within RedditbotSpider.py.
 
 <b>What the program does:</b>
 <ul>
-<li>Data is scraped.</li>
-<li>Inserted into a sqlite3 database.</li>
-<li>Any rows lacking a comment are deleted.</li>
-<li>Lexicon (word-based) for sentiment analysis applied to comments corresponding to a certain title.</li>
-<li>Data visualization, including an interactive bar chart, CSV file, and completion window are generating using Plotly and Tkinter.</li>
+<li>Web scraper connects to subreddit and collects the top 25 post titles, as well as comments within each post.</li>
+<li>Data is inserted into a sqlite3 database.</li>
+<li>Data is cleaned up: any rows lacking a comment are deleted.</li>
+<li>Comments are combined for each corresponding title and placed into a new database table.
+<li>A unique ID (1-25) is added for each title and corresponding group of comments.
+<li>Lexicon (word-based) for sentiment analysis is applied to each set of comments.</li>
+<li>Data visualization: an interactive, html formatted bar chart, CSV file, and completion window are generated.</li>
 </ul>
 
 <hr>
