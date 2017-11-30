@@ -1,4 +1,4 @@
-<b><u>Comment Sentiment Analysis of the Top 25 Posts on a Subreddit (www.reddit.com) (top posts from the last 24 hrs)</b></u>
+<b>Comment Sentiment Analysis of the Top 25 Posts on a Subreddit (www.reddit.com) (top posts from the last 24 hrs)</b>
 
 <b>Purpose of the program:</b>
 To define, evaluate, and visualize overall public sentiment towards various news articles. 
@@ -8,12 +8,12 @@ Web scraper is set to https://www.reddit.com/r/politics/top/, but can be (theore
 <b>What the program does:</b>
 <ul>
 <li>Web scraper connects to subreddit and collects the top 25 post titles, as well as comments within each post.</li>
-<li>Data is inserted into a sqlite3 database.</li>
+<li>Data is inserted into a SQLite3 database.</li>
 <li>Data is cleaned up: any rows lacking a comment are deleted.</li>
 <li>Comments are combined for each corresponding title and placed into a new database table.
 <li>A unique ID (1-25) is added for each title and corresponding group of comments.
 <li>Lexicon (word-based) for sentiment analysis is applied to each set of comments.</li>
-<li>Data visualization: an interactive, html formatted bar chart, CSV file, and completion window are generated.</li>
+<li>Data visualization: an interactive (html) bar chart, CSV file, and completion window are generated.</li>
 </ul>
 
 <hr>
