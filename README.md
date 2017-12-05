@@ -10,6 +10,8 @@ Three versions of the program are available in this repository:<ul>
   
 <i>Note</i>: The program can be (theoretically) used on any subreddit by changing the address and (if needed) altering the XPath's within RedditbotSpider.py.
 
+<hr>
+
 <b>What the program does:</b>
 <ul>
 <li>Web scraper connects to subreddit and collects the top 25 post titles, as well as comments within each post.</li>
