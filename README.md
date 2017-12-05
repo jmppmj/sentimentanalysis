@@ -4,9 +4,9 @@
 To define, evaluate, and visualize overall public sentiment towards various news articles. 
 
 Three versions of the program are available in this repository:<ul>
-<li>RedditbotSpidernews scraps and analyzes the top posts from the last 24 hrs on <a href="https://www.reddit.com/r/news/top/">/r/news/.</a></li>
-<li>RedditbotSpiderpolitics scraps and analyzes the top posts from the last 24 hrs on <a href="https://www.reddit.com/r/politics/top/">/r/politics/.</a></li>
-<li>RedditbotSpiderworldnews scraps and analyzes the top posts from the last 24 hrs on <a href="https://www.reddit.com/r/worldnews/top/">/r/worldnews/.</a></li></ul>
+<li>RedditbotSpidernews scraps and analyzes the top posts from the last 24 hrs on <a href="https://www.reddit.com/r/news/top/">/r/news/</a>.</li>
+<li>RedditbotSpiderpolitics scraps and analyzes the top posts from the last 24 hrs on <a href="https://www.reddit.com/r/politics/top/">/r/politics/</a>.</li>
+<li>RedditbotSpiderworldnews scraps and analyzes the top posts from the last 24 hrs on <a href="https://www.reddit.com/r/worldnews/top/">/r/worldnews/</a>.</li></ul>
   
 <i>Note</i>: The program can be (theoretically) used on any subreddit by changing the address and (if needed) altering the XPath's within RedditbotSpider.py.
 
