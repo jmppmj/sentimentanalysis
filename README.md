@@ -4,12 +4,11 @@
 To define, evaluate, and visualize overall public sentiment towards various news articles. 
 
 Three versions of the program are available in this repository:<ul>
-<li>RedditbotSpidernews scraps and analyzes the top posts from the last 24 hrs on /r/news/</li>
-<li>RedditbotSpiderpolitics scraps and analyzes the top posts from the last 24 hrs on /r/politics</li>
-<li>RedditbotSpiderpolitics scraps and analyzes the top posts from the last 24 hrs on /r/news</li>
-<li>RedditbotSpiderworldnews scraps and analyzes the top posts from the last 24 hrs on /r/worldnews</li>
+<li>RedditbotSpidernews scraps and analyzes the top posts from the last 24 hrs on <a href="https://www.reddit.com/r/news/top/">/r/news/.</a></li>
+<li>RedditbotSpiderpolitics scraps and analyzes the top posts from the last 24 hrs on <a href="https://www.reddit.com/r/politics/top/">/r/politics/.</a></li>
+<li>RedditbotSpiderworldnews scraps and analyzes the top posts from the last 24 hrs on <a href="https://www.reddit.com/r/worldnews/top/">/r/worldnews/.</a></li></ul>
   
-The program can be (theoretically) used on any subreddit by changing the address and (if needed) altering the XPath's within RedditbotSpider.py.
+<i>Note</i>: The program can be (theoretically) used on any subreddit by changing the address and (if needed) altering the XPath's within RedditbotSpider.py.
 
 <b>What the program does:</b>
 <ul>
@@ -87,7 +86,7 @@ The program can be (theoretically) used on any subreddit by changing the address
 <li>Download this repository & unzip it</li>
 <li>sentimentanalysis-master->RedditbotSpidernews or RedditbotSpiderpolitics or RedditbotSpiderworldnews->right click on main.py, edit with IDLE->Run->Run Module
 </ul>
-Note: Before running the program a <i>second</i> time, move or delete the generated/results files: test.db, temp-plot.html, and results.csv out of the RedditbotSpider folder.
+<i>Note</i>: Before running the program a <i>second</i> time, move or delete the generated/results files: test.db, temp-plot.html, and results.csv out of the RedditbotSpider folder.
 
 <hr>
 
