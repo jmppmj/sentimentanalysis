@@ -1,4 +1,4 @@
-<b>Comment Sentiment Analysis of the Top 25 Posts on a Subreddit (www.reddit.com) (top posts from the last 24 hrs)</b>
+<b>Comment Sentiment Analysis of the Top 25 Posts on a Subreddit (www.reddit.com) (from the last 24 hrs)</b>
 
 <b>Purpose of the program:</b>
 To define, evaluate, and visualize overall public sentiment towards various news articles. 
@@ -86,7 +86,7 @@ Three versions of the program are available in this repository:<ul>
 <li>Download this repository & unzip it</li>
 <li>sentimentanalysis-master->RedditbotSpidernews or RedditbotSpiderpolitics or RedditbotSpiderworldnews->right click on main.py, edit with IDLE->Run->Run Module
 </ul>
-<i>Note</i>: Before running the program a <i>second</i> time, move or delete the generated/results files: test.db, temp-plot.html, and results.csv out of the RedditbotSpider folder.
+<i>Note</i>: Before running the program a <i>second</i> time, move or delete the generated/results files: test.db, temp-plot.html, and results.csv out of the RedditbotSpidernews/RedditbotSpiderpolitics/RedditbotSpiderworldnews folder.
 
 <hr>
 
