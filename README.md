@@ -3,7 +3,13 @@
 <b>Purpose of the program:</b>
 To define, evaluate, and visualize overall public sentiment towards various news articles. 
 
-Web scraper is set to https://www.reddit.com/r/politics/top/, but can be (theoretically) used on any similar subreddit by changing the address and (if needed) altering the XPath's within RedditbotSpider.py.
+Three versions of the program are available in this repository:<ul>
+<li>RedditbotSpidernews scraps and analyzes the top posts from the last 24 hrs on /r/news/</li>
+<li>RedditbotSpiderpolitics scraps and analyzes the top posts from the last 24 hrs on /r/politics</li>
+<li>RedditbotSpiderpolitics scraps and analyzes the top posts from the last 24 hrs on /r/news</li>
+<li>RedditbotSpiderworldnews scraps and analyzes the top posts from the last 24 hrs on /r/worldnews</li>
+  
+The program can be (theoretically) used on any subreddit by changing the address and (if needed) altering the XPath's within RedditbotSpider.py.
 
 <b>What the program does:</b>
 <ul>
@@ -79,7 +85,7 @@ Web scraper is set to https://www.reddit.com/r/politics/top/, but can be (theore
 <li>pip3 install plotly</li>
 <li>pip install pypiwin32</li></ul>
 <li>Download this repository & unzip it</li>
-<li>sentimentanalysis-master->RedditbotSpider->right click on main.py, edit with IDLE->Run->Run Module
+<li>sentimentanalysis-master->RedditbotSpidernews or RedditbotSpiderpolitics or RedditbotSpiderworldnews->right click on main.py, edit with IDLE->Run->Run Module
 </ul>
 Note: Before running the program a <i>second</i> time, move or delete the generated/results files: test.db, temp-plot.html, and results.csv out of the RedditbotSpider folder.
 
