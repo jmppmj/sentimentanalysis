@@ -1,6 +1,6 @@
 <b>Comment Sentiment Analysis of the Top 25 Posts on a Subreddit (www.reddit.com) (from the last 24 hrs)</b>
 
-<b>Uses: Python, SQLite</b>
+<b>Languages: Python, SQLite</b>
 
 <b>Purpose of the program:</b>
 To define, evaluate, and visualize overall public sentiment towards various news articles. 
