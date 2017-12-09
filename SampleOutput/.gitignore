@@ -1,0 +1,4 @@
+# Ignore sample output files.
+*.csv
+*.db
+*.html
