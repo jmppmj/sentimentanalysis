@@ -99,3 +99,8 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Ignore sample output files.
+*.csv
+*.db
+*.html
